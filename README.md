@@ -1,5 +1,5 @@
   # JOGO DA VELHA (EM PYTHON)
-  ===========================
+  ==============================================================================
 ## Projeto realizado para entrega no programa PROZ AWS TURMA 19 (T19) - GRUPO C
 
 ### Participantes:
@@ -12,4 +12,4 @@
 
  Biblioteca para interface Gráfica: tkinter
 
-___Professor Mateus Gesualdo___
+___Professor: Mateus Gesualdo___
