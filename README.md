@@ -1,5 +1,5 @@
   # JOGO DA VELHA (EM PYTHON)
-## ===========================
+  ===========================
 ## Projeto realizado para entrega no programa PROZ AWS TURMA 19 (T19) - GRUPO C
 
 ### Participantes:
@@ -8,8 +8,8 @@
   + Leonardo Prado - [GH](https://github.com/Pradoleo)
   + Maria Clara Gonçalves - [GH]
   + Rafael V. Wierzba 👑 - [GH](https://github.com/rvwierzba) 
-  + Wanessa Santos - GH
+  + Wanessa Santos - [GH]
 
-### Biblioteca para interface Gráfica: tkinter
+ Biblioteca para interface Gráfica: tkinter
 
-### Professor Mateus Gesualdo
+___Professor Mateus Gesualdo___
