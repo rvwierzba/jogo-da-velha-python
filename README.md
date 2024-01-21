@@ -3,11 +3,11 @@
 ## Projeto realizado para entrega no programa PROZ AWS TURMA 19 (T19) - GRUPO C
 
 ### Participantes:
-  + Ashley Scarllet - (https://github.com/AshleyScarllet)GH
-  + Brenoww - (https://github.com/brenoww)GH
-  + Leonardo Prado - (https://github.com/Pradoleo)GH
-  + Maria Clara Gonçalves - GH
-  + Rafael V. Wierzba 👑 -(https://github.com/rvwierzba) GH
+  + Ashley Scarllet - [GH](https://github.com/AshleyScarllet)
+  + Brenoww - [GH](https://github.com/brenoww)
+  + Leonardo Prado - [GH](https://github.com/Pradoleo)
+  + Maria Clara Gonçalves - [GH]
+  + Rafael V. Wierzba 👑 - [GH](https://github.com/rvwierzba) 
   + Wanessa Santos - GH
 
 ### Biblioteca para interface Gráfica: tkinter
