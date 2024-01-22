@@ -6,7 +6,7 @@
   + [Ashley Scarllet](https://github.com/AshleyScarllet)
   + [Brenoww](https://github.com/brenoww)
   + [Leonardo Prado](https://github.com/Pradoleo)
-  + [Maria Clara Gonçalves]
+  + [Maria Clara Gonçalves](https://github.com/Maria-Aralk)
   + [Rafael V. Wierzba](https://github.com/rvwierzba) 👑  
   + [Wanessa Santos](https://github.com/WanessaMSantos)
 
