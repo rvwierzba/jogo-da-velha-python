@@ -8,7 +8,7 @@
   + Leonardo Prado - [GH](https://github.com/Pradoleo)
   + Maria Clara Gonçalves - [GH]
   + Rafael V. Wierzba 👑 - [GH](https://github.com/rvwierzba) 
-  + Wanessa Santos - [GH]
+  + Wanessa Santos - [GH](https://github.com/WanessaMSantos)
 
  Biblioteca para interface Gráfica: tkinter
 
