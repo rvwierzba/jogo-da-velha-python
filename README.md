@@ -12,4 +12,6 @@
 
  Biblioteca para interface Gráfica: tkinter
 
-___Professor: Mateus Gesualdo___
+ 🎵 [PLAYLIST](https://www.youtube.com/watch?v=P4CvF-RHoy4&t=1081s&ab_channel=Vin%C3%ADciusSilva) RECOMENDADA PARA CODAR - BY RVW 
+
+___Professor: [Mateus Gesualdo](https://github.com/mateusgesualdo)___
