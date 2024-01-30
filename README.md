@@ -10,7 +10,7 @@
   + [Rafael V. Wierzba](https://github.com/rvwierzba) 👑  
   + [Wanessa Santos](https://github.com/WanessaMSantos)
 
- Biblioteca para interface Gráfica: tkinter
+ Biblioteca para interface Gráfica: [tkinter](https://docs.python.org/pt-br/3/library/tkinter.html)
 
  🎵 [PLAYLIST](https://www.youtube.com/watch?v=P4CvF-RHoy4&t=1081s&ab_channel=Vin%C3%ADciusSilva) - INDICAÇÃO PARA CODAR - BY RVW 
 
