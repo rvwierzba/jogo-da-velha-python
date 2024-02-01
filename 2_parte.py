@@ -101,4 +101,12 @@ b_1.place(x=96, y=15)
 b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_2.place(x=162, y=15)
 
+#linha 1 
+b_0 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_0.place(x=30, y=75)
+b_1 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_1.place(x=96, y=75)
+b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_2.place(x=162, y=75)
+
 janela.mainloop()
