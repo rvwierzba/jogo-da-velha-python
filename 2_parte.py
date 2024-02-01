@@ -93,7 +93,7 @@ app_ = Label(frame_baixo, text="", width=46,
               font=("Ivy 5 bold"), bg=co0, fg=co7)
 app_.place(x=30, y=127)
 
-#linha 0 
+#linha 0 de botões  
 b_0 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_0.place(x=30, y=15)
 b_1 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
@@ -101,12 +101,21 @@ b_1.place(x=96, y=15)
 b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_2.place(x=162, y=15)
 
-#linha 1 
+#linha 1 de botões
 b_0 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_0.place(x=30, y=75)
 b_1 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_1.place(x=96, y=75)
 b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_2.place(x=162, y=75)
+
+
+#linha 2 de botões
+b_0 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_0.place(x=30, y=135)
+b_1 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_1.place(x=96, y=135)
+b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_2.place(x=162, y=135)
 
 janela.mainloop()
