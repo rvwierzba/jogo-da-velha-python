@@ -30,6 +30,28 @@ frame_cima.grid(row=0, column=0, sticky=NW, padx=10, pady=10)
 frame_baixo = Frame(janela, width=240, height=300, bg=fundo, relief="flat")
 frame_baixo.grid(row=1, column=0, sticky=NW)
 
+# Criando logica do app ------------------------------
+
+Jogador_1 = "X"
+Jogador_2 = "O"
+
+score_1 = "X"
+score_2 = "O"
+
+tabela = [["1", "2", "3"] ,["4" ,"5" ,"6"], ["7" ,"8" ,"9"]]
+
+def iniciar_jogo():
+    #para controlar o jogo
+    def controlar():
+        pass
+        #para decidir o vencedor
+        def vencedor():
+
+
+
+
+
+
 # CONFIGURANDO O FRAME DE CIMA (CABEÇALHO)
 app_x = Label(frame_cima, text="X", height=1,
               relief='flat', anchor="center", 
@@ -117,5 +139,9 @@ b_7 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), ov
 b_7.place(x=96, y=135)
 b_8 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
 b_8.place(x=162, y=135)
+
+# botão jogar 
+b_jogar = Button(frame_baixo, text="Jogar ", width=10, height=1,  font=("Ivy 10 bold"), overrelief=RIDGE, relief="raised", bg=fundo, fg=co0)
+b_jogar.place(x=81, y=210)
 
 janela.mainloop()
