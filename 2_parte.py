@@ -80,20 +80,25 @@ app_.place(x=90, y=15)
 app_ = Label(frame_baixo, text="", height=23,
               relief='flat', pady="5", anchor="center", 
               font=("Ivy 5 bold"), bg=co0, fg=co7)
-app_.place(x=160, y=15)
+app_.place(x=156, y=15)
 
 # LINHAS HORIZONTAIS
-app_ = Label(frame_baixo, text="", width=48,
+app_ = Label(frame_baixo, text="", width=46,
               relief='flat', padx="2", pady="1", anchor="center", 
               font=("Ivy 5 bold"), bg=co0, fg=co7)
 app_.place(x=30, y=63)
 
-app_ = Label(frame_baixo, text="", width=48,
+app_ = Label(frame_baixo, text="", width=46,
               relief='flat', padx="2", pady="1", anchor="center", 
               font=("Ivy 5 bold"), bg=co0, fg=co7)
-app_.place(x=30, y=123)
+app_.place(x=30, y=127)
 
-
-
+#linha 0 
+b_0 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_0.place(x=30, y=15)
+b_1 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_1.place(x=96, y=15)
+b_2 = Button(frame_baixo, text=" ", width=3, height=1,  font=("Ivy 20 bold"), overrelief=RIDGE, relief="flat", bg=fundo, fg=co7)
+b_2.place(x=162, y=15)
 
 janela.mainloop()
