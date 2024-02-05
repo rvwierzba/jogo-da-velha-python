@@ -42,10 +42,294 @@ tabela = [["1", "2", "3"] ,["4" ,"5" ,"6"], ["7" ,"8" ,"9"]]
 
 def iniciar_jogo():
     #para controlar o jogo
-    def controlar():
+    def controlar(i):
+        global jogando
+        global contador
+        global jogar
+
+        #comparando o valor recebido
+        if i==str(1):
+            #verificando se aquela posição esta vazia ou não
+            if b_0['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_0['fg'] = cor
+                b_0['text'] = jogando
+                tabela[0][0] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+                  
+        if i==str(2):
+            #verificando se aquela posição esta vazia ou não
+            if b_1['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_1['fg'] = cor
+                b_1['text'] = jogando
+                tabela[0][1] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+
+        if i==str(3):
+            #verificando se aquela posição esta vazia ou não
+            if b_2['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_2['fg'] = cor
+                b_2['text'] = jogando
+                tabela[0][2] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+                
+        if i==str(4):
+            #verificando se aquela posição esta vazia ou não
+            if b_3['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_3['fg'] = cor
+                b_3['text'] = jogando
+                tabela[1][0] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+            
+        if i==str(5):
+            #verificando se aquela posição esta vazia ou não
+            if b_4['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_4['fg'] = cor
+                b_4['text'] = jogando
+                tabela[0][0] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+ 
+        if i==str(6):
+            #verificando se aquela posição esta vazia ou não
+            if b_5['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_5['fg'] = cor
+                b_5['text'] = jogando
+                tabela[1][2] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+
+        if i==str(7):
+            #verificando se aquela posição esta vazia ou não
+            if b_6['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_6['fg'] = cor
+                b_6['text'] = jogando
+                tabela[2][0] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+
+        if i==str(8):
+            #verificando se aquela posição esta vazia ou não
+            if b_7['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_7['fg'] = cor
+                b_7['text'] = jogando
+                tabela[2][1] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+
+        if i==str(9):   
+            #verificando se aquela posição esta vazia ou não
+            if b_8['text']=='':
+                #verificando quem esta jogando e assim definir a cor do simbolo
+                if jogando == "X":
+                    cor=co7
+                if jogando == "O":
+                    cor=co8
+                
+                #definindo a cor do text do botão
+                # e marcar a posição da tabela
+                # com o valor do jogador atual
+                b_8['fg'] = cor
+                b_8['text'] = jogando
+                tabela[2][2] = jogando
+
+                #verificar quem está jogando para trocar de jogador
+                if jogando == 'X':
+                    jogando = 'O'
+                    joga  = 'Jogador 1'
+                else:
+                     jogando = 'X'
+                     joga = 'Jogador 2'
+                
+                #incrementar o contador para a próxima rodada
+                contador+=1
+
+        #Após o contador ser maior ou igual a 5, 
+        #verifica se houve algum vencedor de acordo
+        #com os padrões seguintes dentro da tabela
+        if contador>=5:
+            #linhas
+            if tabela[0][0] == tabela[0][1] == tabela[0][2]!="":
+                vencedor(jogando)
+            elif tabela[1][0] == tabela[1][1] == tabela[1][2]!="":
+                vencedor(jogando)
+            elif tabela[2][0] == tabela[2][1] == tabela[2][2]!="":
+                vencedor(jogando)
+
+            #colunas
+            if tabela[0][0] == tabela[1][0] == tabela[2][0]!="":
+                vencedor(jogando)
+            elif tabela[0][1] == tabela[1][1] == tabela[2][1]!="":
+                vencedor(jogando)
+            elif tabela[0][2] == tabela[1][2] == tabela[2][2]!="":
+                vencedor(jogando)
+
+            #diagonais
+            if tabela[0][0] == tabela[1][1] == tabela[2][2]!="":
+                vencedor(jogando)
+            elif tabela[0][2] == tabela[1][1] == tabela[2][0]!="":
+                vencedor(jogando)
+
+            #empate
+            if contador >=9:
+                vencedor('foi empate')
+
+       
+
+    # para decidir o vencedor
+    def vencedor(i):
         pass
-        #para decidir o vencedor
-        def vencedor():
+
+    #para terminar o jogo atual
+    def terminar():
+        pass
           
 # CONFIGURANDO O FRAME DE CIMA (CABEÇALHO)
 app_x = Label(frame_cima, text="X", height=1,
